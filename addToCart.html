@@ -1,0 +1,67 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <title>SHOPPING CART</title>
+            <meta NAME="generator" content="EditPlus">
+            <meta NAME="Author" content="">
+            <meta NAME="Keywords" content="">
+            <meta NAME="Description" content="">
+            <link rel="stylesheet" href="addToCart.css">
+            <script type="text/javascript" src="addToCart.js"></script>
+        </head>
+
+        <body>
+            <div class="container">
+                <div class="card" id="item1">
+                    <img src="pineappleCake.png">
+                    <div class="title"> PINEAPPLE CAKE</div>
+                    <div>
+                        <label>QUANTITY IN KG :</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                    <button onclick="addToCart(item1)">ADD TO CART</button>
+                </div>
+
+                <div class="card" id="item2">
+                    <img src="strawberryCake.png">
+                    <div class="title"> STRAWBERRY CAKE</div>
+                    <div>
+                        <label>QUANTITY IN KG :</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                    <button onclick="addToCart(item2)">ADD TO CART</button>
+                </div>
+               
+                <div class="card" id="item3">
+                    <img src="chocolateCake.png">
+                    <div class="title"> CHOCOLATE CAKE</div>
+                    <div>
+                        <label>QUANTITY IN KG :</label>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                    <button onclick="addToCart(item3)">ADD TO CART</button>
+                </div>
+
+            </div>
+            <div class="cart" id="cart">
+            <div class="title">CART</div><hr/>
+            <div id="title"></div>
+
+            </div>
+        </body>
+    </html>

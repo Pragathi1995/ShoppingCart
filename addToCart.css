@@ -1,0 +1,53 @@
+.container{
+    top:50%;
+    left: 50%;
+    transform: translate(-65%,-50%);
+    position: absolute;
+    width: max-content;
+}
+
+.card{
+    border: 2px solid blueviolet;
+    background-color: rgb(199, 190, 207);
+    width: max-content;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+}
+
+.card img{
+    width: 300px;
+    padding: 5px;
+}
+
+.title{
+    font-weight: bold;
+    margin: 20px;
+}
+
+button{
+    border: 5px solid rosybrown;
+    background: darkred;
+    color:antiquewhite;
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+button:hover{
+    box-shadow: 0 0 15px rosybrown inset;
+}
+
+.cart{
+    width: 300px;
+    float: right;
+    background-color: rgb(205, 197, 212);
+    text-align: center;
+    border:2px solid blueviolet;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.cartImg > Img{
+    width:200px;
+}
